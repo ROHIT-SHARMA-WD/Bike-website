@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* 
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: var(--font-regular);
+}
+
+
+/* utility class */
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+}
+:root{
+     --primary-text-color:rgb(66, 69, 74);
+     --secoundry-text-color:rgb(10, 10, 10);
+     --pading:0px 25px;
+     --border:2px solid red;
+     --font-regular:Poppins;
+}
+
+
+
+
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhh section one hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+
+.main-Container .header-section {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+/* making nav */
+.header-section nav{
+    width: 100%;
+    height: 12vh;
+    justify-content: space-between;
+    padding:5px 25px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.1);
+}
+nav ul{
+    gap: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--secoundry-text-color);
+}
+nav img{
+    width: 60px;
+}
+nav button:last-child{
+    background:rgb(66, 69, 74);
+    color:rgb(255, 255, 255);
+}
+
