@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 /* 
 font-family: 'Oswald', sans-serif;
 font-family: 'Poppins', sans-serif;
@@ -30,16 +30,19 @@ button{
     cursor: pointer;
 }
 :root{
-     --primary-text-color:rgb(66, 69, 74);
-     --secoundry-text-color:rgb(10, 10, 10);
-     --pading:0px 25px;
+     --primary-text-color:rgb(44, 44, 44);
+     --secoundry-text-color:rgb(66, 69, 74);
+     --pading:0px 35px;
      --border:2px solid red;
-     --font-regular:Poppins;
+     --font-regular:Poppins,Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* hhhhhhhhhhhhhhh main contaner hhhhhhhhhhhhhhhhhhhh */
 
-
-
+.main-Container{
+    max-width: 1400px;
+    margin: auto;
+}
 
 /* hhhhhhhhhhhhhhhhhhhhhhhhhhh section one hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 
@@ -55,14 +58,19 @@ button{
     width: 100%;
     height: 12vh;
     justify-content: space-between;
-    padding:5px 25px;
+    padding:var(--pading);
     border-bottom:1px solid rgba(0, 0, 0, 0.1);
 }
 nav ul{
-    gap: 30px;
+    gap: 40px;
     text-transform: uppercase;
     font-weight: 400;
     color: var(--secoundry-text-color);
+}
+ul li i{
+    align-self: center;
+    font-size: 13px;
+    color: var(--primary-text-color);
 }
 nav img{
     width: 60px;
@@ -71,4 +79,117 @@ nav button:last-child{
     background:rgb(66, 69, 74);
     color:rgb(255, 255, 255);
 }
+
+
+
+
+/* contant area */
+
+.header-section .hero{
+    height: 80vh;
+    position: relative;
+}
+
+
+/*  */
+.hero .hero-text{
+    padding:10px 0px 0px 30px;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
+    
+}
+.hero-text h1{
+    height: 35%;
+    width: 100%;
+    font-size:6rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 100px;
+    color: var(--secoundry-text-color);
+}
+.hero-text h1 span{
+    font-weight: 800;
+    color:var(--primary-text-color);
+}
+.hero-text .hero-text-sapraet{
+    border: var(--border);
+    border-radius: 10px;
+    border-color: var(--secoundry-text-color);
+    width: 60%;
+
+}
+.hero-text p{
+    color: var(--secoundry-text-color);
+}
+.hero-text .hero-text-botum{
+    height: 20%;
+    width: 100%;
+    justify-content: start;;
+
+}
+.hero-text-botum .hero-same{
+    width: 35%;
+    height: 100%;
+    justify-content: start;
+    gap: 20px;
+}
+.hero-text-botum .buy-butt {
+    font-size:20px ;
+    font-weight:500;
+}
+.hero-text-botum .buy-butt div{
+    height: 70px;
+    width: 70px;
+    background-color: var(--secoundry-text-color);
+    font-size: 30px;
+    color: white;
+}
+.hero-text-botum .vido-butt span{
+    font-size: 15px;
+    line-height: 19px;
+    color: var(--secoundry-text-color);
+}
+.hero-text-botum .vido-butt img{
+    animation: roted infinite 10s ease-in;
+}
+
+/* animation on video */
+@keyframes roted{
+    0%{
+        transform: rotate(0deg);
+        
+    }
+    100%
+    {
+        transform: rotate(360deg);
+        
+    }
+}
+
+
+/*  */
+.hero .hero-img{
+    padding:10px 30px 0px 0px;
+    width: 60%;
+    height: 100%;
+    z-index: 0;
+    position: absolute;
+    right: 0;
+    
+}
+.hero-img img{
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down;
+}
+
+
+
 
