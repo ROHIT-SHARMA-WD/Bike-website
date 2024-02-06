@@ -210,7 +210,7 @@ nav button:last-child {
 
 
 
-/*  */
+/* viwe bikes  */
 .header-section .viwe-bikes {
     width: 100%;
     height: 160px;
@@ -258,4 +258,40 @@ nav button:last-child {
 
 .arrow .arrow-1 {
     border-right: 1.5px solid var(--primary-text-color);
+}
+
+
+/* hero bike fetures */
+.header-section .hero-bike-feture {
+    width: 100%;
+    height: 160px;
+    justify-content: space-between;
+    padding: var(--pading);
+    margin-top: 20px;
+}
+
+.hero-bike-feture .fetures {
+    width: 160px;
+    height: 130px;
+    border-radius: 15px;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    box-shadow: -6px 6px 15px rgba(0, 0, 0, 0.150);
+}
+
+.fetures h3 {
+    font-size: 2.2rem;
+    color: var(--primary-text-color);
+}
+
+.fetures h3>span {
+    font-size: 1.2rem;
+}
+
+.fetures h4 {
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    color: var(--secoundry-text-color);
+    font-weight: 600;
 }
