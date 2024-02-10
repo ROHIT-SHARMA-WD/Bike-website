@@ -268,7 +268,7 @@ nav button:last-child {
     justify-content: space-between;
     padding: var(--pading);
     margin-top: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 .hero-bike-feture .fetures {
@@ -305,20 +305,49 @@ nav button:last-child {
 /* product information section */
 .product-info-section {
     width: 100%;
-    height: 800px;
-    border: var(--border);
+    height: 850px;
     padding: var(--pading);
 }
 
 .product-info-section .p-info-text {
     height: 20%;
-    border: var(--border);
     flex-direction: column;
+}
+.p-info-text h2{
+    font-size: 2.7rem;
+    text-transform: capitalize;
+    margin-bottom: 15px;
 }
 
 .product-info-section .p-info-img-text {
     height: 80%;
-    border: var(--border);
+    width: 100%;
+}
+.p-info-img-text .image{
+    width: 50%;
+    height: 100%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+}
+.p-info-img-text .image-text{
+    width: 50%;
+    height: 100%;
+}
+.image-text ul{
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    height: 100%;
+}
+.image-text ul li{
+    gap: 15px;
+    margin: 15px 0px 20px 200px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--secoundry-text-color);
 }
 
 /* hhhhhhhhhhhhhhhhhhhhhhhhhhh section two ended hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
