@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 /* 
 font-family: 'Oswald', sans-serif;
@@ -13,7 +13,6 @@ font-family: 'Roboto', sans-serif;
     list-style-type: none;
     font-family: var(--font-regular);
 }
-
 
 /* utility class */
 .flex {
@@ -32,9 +31,10 @@ button {
     cursor: pointer;
 }
 
+/* rgb(93, 95, 99) */
 :root {
-    --primary-text-color: rgb(44, 44, 44);
-    --secoundry-text-color: rgb(66, 69, 74);
+    --primary-text-color: rgb(66, 69, 74);
+    --secoundry-text-color: rgb(93, 95, 99);
     --pading: 0px 35px;
     --border: 2px solid red;
     --font-regular: Poppins, Verdana, Geneva, Tahoma, sans-serif;
@@ -53,8 +53,6 @@ button {
     width: 100%;
     height: fit-content;
 }
-
-
 
 /* making nav */
 .header-section nav {
@@ -87,16 +85,12 @@ nav button:last-child {
     color: rgb(255, 255, 255);
 }
 
-
-
-
 /* contant area */
 
 .header-section .hero {
     height: 80vh;
     position: relative;
 }
-
 
 /*  */
 .hero .hero-text {
@@ -110,7 +104,6 @@ nav button:last-child {
     justify-content: center;
     align-items: start;
     gap: 40px;
-
 }
 
 .hero-text h1 {
@@ -133,7 +126,6 @@ nav button:last-child {
     border-radius: 10px;
     border-color: var(--secoundry-text-color);
     width: 60%;
-
 }
 
 .hero-text p {
@@ -144,7 +136,6 @@ nav button:last-child {
     height: 15%;
     width: 100%;
     justify-content: start;
-    ;
 }
 
 .hero-text-botum .hero-same {
@@ -181,15 +172,12 @@ nav button:last-child {
 @keyframes roted {
     0% {
         transform: rotate(0deg);
-
     }
 
     100% {
         transform: rotate(360deg);
-
     }
 }
-
 
 /*  */
 .hero .hero-img {
@@ -199,7 +187,6 @@ nav button:last-child {
     z-index: 0;
     position: absolute;
     right: 0;
-
 }
 
 .hero-img img {
@@ -207,8 +194,6 @@ nav button:last-child {
     height: 100%;
     object-fit: scale-down;
 }
-
-
 
 /* viwe bikes  */
 .header-section .viwe-bikes {
@@ -260,7 +245,6 @@ nav button:last-child {
     border-right: 1.5px solid var(--primary-text-color);
 }
 
-
 /* hero bike fetures */
 .header-section .hero-bike-feture {
     width: 100%;
@@ -299,13 +283,11 @@ nav button:last-child {
 
 /* hhhhhhhhhhhhhhhhhhhhhhhhhhh section one ended hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 
-
-
 /* hhhhhhhhhhhhhhhhhhhhhhhhhhh section two hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 /* product information section */
 .product-info-section {
     width: 100%;
-    height: 850px;
+    height: 800px;
     padding: var(--pading);
 }
 
@@ -313,36 +295,50 @@ nav button:last-child {
     height: 20%;
     flex-direction: column;
 }
-.p-info-text h2{
-    font-size: 2.7rem;
+
+.p-info-text h2 {
+    font-size: 3rem;
     text-transform: capitalize;
     margin-bottom: 15px;
+    color: var(--primary-text-color);
+}
+
+.p-info-text p {
+    color: var(--secoundry-text-color);
+    font-weight: 500;
+    font-size: 1.1rem;
+    /* word-spacing: 4px; */
 }
 
 .product-info-section .p-info-img-text {
     height: 80%;
     width: 100%;
 }
-.p-info-img-text .image{
+
+.p-info-img-text .image {
     width: 50%;
     height: 100%;
 }
-.image img{
+
+.image img {
     width: 100%;
     height: 100%;
-    object-fit:fill;
+    object-fit: scale-down;
 }
-.p-info-img-text .image-text{
+
+.p-info-img-text .image-text {
     width: 50%;
     height: 100%;
 }
-.image-text ul{
+
+.image-text ul {
     flex-direction: column;
     align-items: start;
     width: 100%;
     height: 100%;
 }
-.image-text ul li{
+
+.image-text ul li {
     gap: 15px;
     margin: 15px 0px 20px 200px;
     font-size: 1rem;
@@ -351,3 +347,30 @@ nav button:last-child {
 }
 
 /* hhhhhhhhhhhhhhhhhhhhhhhhhhh section two ended hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+
+
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhh section three hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+/* high efficiency motor section */
+.high-effic-moter-section {
+    height: fit-content;
+    width: 100%;
+    height: fit-content;
+    padding-top: 75px;
+    align-items: center;
+    /* justify-content: ; */
+}
+
+.h-e-m-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhh section three ended hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+
+
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhh section four hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+    
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhh section four ended hear hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
