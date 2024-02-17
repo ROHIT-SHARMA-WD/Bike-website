@@ -270,7 +270,7 @@ nav button:last-child {
   color: var(--primary-text-color);
 }
 
-.fetures h3 > span {
+.fetures h3>span {
   font-size: 1.2rem;
 }
 
@@ -313,7 +313,9 @@ p {
   color: var(--secoundry-text-color);
   font-weight: 500;
   font-size: 1.1rem;
+  text-transform: capitalize;
 }
+
 /* .p-info-text p {
     color: var(--secoundry-text-color);
     font-weight: 500;
@@ -384,68 +386,40 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
+
 /*  */
 .multiple-accessories-section .multi-a-text {
   flex-direction: column;
   height: 10%;
   width: 100%;
 }
+
 /*  */
 .multiple-accessories-section .multi-a-img-text-one {
   height: 35%;
   width: 100%;
   padding: var(--pading);
 }
+
 .multi-a-img-text-one .one-text {
   width: 35%;
   height: 100%;
 }
+
 .one-text {
   flex-direction: column;
   align-items: start;
   gap: 25px;
 }
- h3 {
+
+.one-text,
+.two-text h3 {
   font-size: 2.5rem;
   color: var(--primary-text-color);
   text-transform: capitalize;
 }
-.one-text ul > li {
-  gap: 20px;
-  margin-bottom: 20px;
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: var(--secoundry-text-color);
-  justify-content: start;
-}
-.multi-a-img-text-one .one-img {
-  width: 65%;
-  height: 100%;
-}
-.one-img img {
-  height: 100%;
-  width: 90%;
-  object-fit: scale-down;
-}
-/*  */
-.multiple-accessories-section .multi-a-img-text-two {
-  height: 35%;
-  width: 100%;
-}
-.multi-a-img-text-two .two-text {
-  width: 30%;
-  height: 100%;
-}
-.two-text {
-  flex-direction: column;
-  gap: 25px;
-  align-items: start;
-}
-.two-text h3 {
-  font-size: 2.5rem;
-  color: var(--primary-text-color);
-}
-.two-text ul > li {
+
+.one-text ul>li {
   gap: 20px;
   margin-bottom: 20px;
   font-size: 1.1rem;
@@ -454,31 +428,189 @@ p {
   justify-content: start;
 }
 
+.multi-a-img-text-one .one-img {
+  width: 65%;
+  height: 100%;
+}
+
+.one-img img {
+  height: 100%;
+  width: 90%;
+  object-fit: scale-down;
+}
+
+/*  */
+.multiple-accessories-section .multi-a-img-text-two {
+  height: 35%;
+  width: 100%;
+}
+
+.multi-a-img-text-two .two-text {
+  width: 30%;
+  height: 100%;
+}
+
+.two-text {
+  flex-direction: column;
+  gap: 25px;
+  align-items: start;
+}
+
+.two-text h3 {
+  font-size: 2.5rem;
+  color: var(--primary-text-color);
+}
+
+.two-text ul>li {
+  gap: 20px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--secoundry-text-color);
+  justify-content: start;
+}
 
 .multi-a-img-text-two .two-img {
   width: 75%;
   height: 100%;
   justify-content: start;
 }
+
 .two-img img {
   width: 85%;
   height: 100%;
 }
+
 /*  */
 .multiple-accessories-section .multi-a-infor {
   height: 10%;
   width: 100%;
 }
-.multi-a-infor .info{
+
+.multi-a-infor .info {
   width: 40%;
   height: 70%;
   border: var(--border);
   border-color: var(--secoundry-text-color);
-  border-width:2.5px;
+  border-width: 2.5px;
   border-radius: 10px;
   text-transform: capitalize;
   font-size: 1.8rem;
   color: var(--primary-text-color);
   font-weight: 600;
 }
+
 /* hhhhhhhhhhhhhhhhhhhhhhhhhhh section four ended hear hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhh section five hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+/* gelary section */
+
+.main-Container .gelary-section {
+  width: 100%;
+  height: 1250px;
+  margin: 75px 0px;
+}
+
+/* gellary text */
+.gelary-section .gelary-text {
+  flex-direction: column;
+  height: 20%;
+}
+
+/* galary images */
+.gelary-section .gelary-images {
+  height: 80%;
+  padding: var(--pading);
+}
+
+.gelary-images .img-one-outer {
+  width: 50%;
+  height: 100%;
+  align-items: end;
+  justify-content: start;
+}
+
+.img-one-outer .imges-one {
+  width: 90%;
+  height: 100%;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: end;
+}
+
+.imges-one>div {
+  width: 95%;
+  position: relative;
+}
+
+.imges-one>div>h3 {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-size: 1.7rem;
+  color: var(--secoundry-text-color);
+
+}
+
+.imges-one>div>img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imges-one .img-one-text {
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+  height: fit-content;
+}
+
+.img-one-text div {
+  width: 95%;
+  padding: 25px 10px;
+  border-radius: 15px;
+  border: 3px solid var(--secoundry-text-color);
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--primary-text-color);
+}
+
+.gelary-images .img-two-outer {
+  width: 50%;
+  height: 100%;
+  justify-content: end;
+}
+
+.img-two-outer .imges-two {
+  height: 100%;
+  width: 90%;
+  justify-content: space-between;
+  /* align-items: end; */
+  flex-direction: column;
+}
+
+.imges-two div {
+  width: 95%;
+  height: 435px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  position: relative;
+}
+
+.imges-two div>h3 {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-size: 1.7rem;
+  color: var(--secoundry-text-color);
+}
+
+.imges-two div img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhh section five ended hear hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
