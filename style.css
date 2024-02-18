@@ -270,7 +270,7 @@ nav button:last-child {
   color: var(--primary-text-color);
 }
 
-.fetures h3>span {
+.fetures h3 > span {
   font-size: 1.2rem;
 }
 
@@ -419,7 +419,7 @@ p {
   text-transform: capitalize;
 }
 
-.one-text ul>li {
+.one-text ul > li {
   gap: 20px;
   margin-bottom: 20px;
   font-size: 1.1rem;
@@ -461,7 +461,7 @@ p {
   color: var(--primary-text-color);
 }
 
-.two-text ul>li {
+.two-text ul > li {
   gap: 20px;
   margin-bottom: 20px;
   font-size: 1.1rem;
@@ -538,21 +538,20 @@ p {
   justify-content: end;
 }
 
-.imges-one>div {
+.imges-one > div {
   width: 95%;
   position: relative;
 }
 
-.imges-one>div>h3 {
+.imges-one > div > h3 {
   position: absolute;
   top: 5%;
   left: 5%;
   font-size: 1.7rem;
   color: var(--secoundry-text-color);
-
 }
 
-.imges-one>div>img {
+.imges-one > div > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -599,7 +598,7 @@ p {
   position: relative;
 }
 
-.imges-two div>h3 {
+.imges-two div > h3 {
   position: absolute;
   top: 5%;
   left: 5%;
@@ -610,7 +609,88 @@ p {
 .imges-two div img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: fil;
+}
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhh section five ended hear hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhh section six hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+/* colors section */
+.main-Container .colors-section {
+  /* border: var(--border);/ */
+  width: 100%;
+  height: 1100px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 115px;
+}
+
+/*  */
+.colors-section .color-text {
+  width: 100%;
+  height: 20%;
+  flex-direction: column;
+}
+
+/*  */
+.colors-section .colors-imgs {
+  width: 100%;
+  height: 80%;
+  position: relative;
+}
+
+.colors-imgs .white-img {
+  width: 100%;
+  height: 85%;
+  background: linear-gradient(to right, #ede8e2, #ffffff);
+}
+
+.colors-imgs .white-img img {
+  height: 100%;
+  width: auto;
+}
+
+.colors-imgs .multi-c-imgs {
+  width: 100%;
+  height: 28%;
+  position: absolute;
+  bottom: 0px;
+  padding: var(--pading);
+  justify-content: space-between;
+}
+
+.colors-imgs .multi-c-imgs div {
+  width: 220px;
+  height: 220px;
+  position: relative;
+}
+
+.colors-imgs .multi-c-imgs div > img {
+  position: absolute;
+  top: -40px;
+  width: 300px;
+}
+
+.multi-c-imgs div > .img-4 {
+  right: -33px;
+}
+
+.multi-c-imgs div > .img-2 {
+  left: -33px;
+}
+
+.multi-c-imgs .h4-1,
+.h4-3 {
+  bottom: 6%;
+}
+
+h4 {
+  position: absolute;
+  bottom: 3%;
+  right: 10%;
+  z-index: 100;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.459);
 }
 
 /* hhhhhhhhhhhhhhhhhhhhhhhhhhh section five ended hear hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
