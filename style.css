@@ -1,10 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"); */
 
-/* 
-font-family: 'Oswald', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-*/
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Hubballi&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -31,19 +28,34 @@ button {
   cursor: pointer;
 }
 
+h2 {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  color: var(--primary-text-color);
+}
+
+p {
+  color: var(--secoundry-text-color);
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+
 /* rgb(93, 95, 99) */
 :root {
   --primary-text-color: rgb(66, 69, 74);
   --secoundry-text-color: rgb(93, 95, 99);
   --pading: 0px 35px;
   --border: 2px solid red;
-  --font-regular: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+  --font-regular: "Balsamiq Sans", Hubballi, sans-serif;
+  /* --font-regular: Poppins, Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 /* hhhhhhhhhhhhhhh main contaner hhhhhhhhhhhhhhhhhhhh */
 
 .main-Container {
-  max-width: 1800px;
+  max-width: 1900px;
   margin: auto;
 }
 
@@ -302,19 +314,6 @@ nav button:last-child {
     margin-bottom: 15px;
     color: var(--primary-text-color);
 } */
-h2 {
-  font-size: 3rem;
-  text-transform: capitalize;
-  margin-bottom: 15px;
-  color: var(--primary-text-color);
-}
-
-p {
-  color: var(--secoundry-text-color);
-  font-weight: 500;
-  font-size: 1.1rem;
-  text-transform: capitalize;
-}
 
 /* .p-info-text p {
     color: var(--secoundry-text-color);
@@ -695,8 +694,6 @@ p {
 
 /* hhhhhhhhhhhhhhhhhhhhhhhhhhh section six ended hear hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 
-
-
 /* hhhhhhhhhhhhhhhhhhhhhhhhhhh section seven  hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 /* testimonials section seven */
 .main-Container .testimonials-section {
@@ -822,3 +819,128 @@ p {
 }
 
 /* hhhhhhhhhhhhhhhhhhhhhhhhhhh section seven ended hear hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+
+
+
+
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhh section 8 footer hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+.main-Container .footer-section {
+  height: 140vh;
+}
+
+.footer-section .upper-f {
+  height: 50%;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.upper-f .up-f-text {
+  text-align: center;
+}
+
+.upper-f .up-f-input {
+  height: 15%;
+  width: 40%;
+}
+
+.up-f-input form {
+  height: 100%;
+  justify-content: space-between;
+}
+
+.up-f-input input {
+  padding: 10px 20px;
+  height: 100%;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  outline: none;
+  border: none;
+}
+
+input:nth-child(1) {
+  width: 70%;
+  background-color: #f7f7f7;
+}
+
+input:nth-child(2) {
+  width: 28%;
+  background-color: var(--primary-text-color);
+  color: white;
+}
+
+.footer-section .lower-f {
+  height: 50%;
+  background-color: var(--primary-text-color);
+}
+
+.lower-f .l-f-img-li {
+  height: 85%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.l-f-img-li .f-img {
+  width: 40%;
+  height: 100%;
+  position: relative;
+}
+
+.l-f-img-li .f-img img {
+  position: absolute;
+  bottom: -7%;
+  width: 100%;
+}
+
+.l-f-img-li .ul {
+  width: 60%;
+  height: 100%;
+  justify-content: start;
+  gap: 45px;
+  padding-left: 100px;
+}
+
+.ul>div {
+  width: 25%;
+  height: 100%;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 55px;
+  color: white;
+  font-family: sans-serif;
+  padding-top: 70px;
+  position: relative;
+}
+
+.ul>div>h3 {
+  text-transform: capitalize;
+  font-size: 2.2rem;
+}
+
+.ul>div>ul>li {
+  text-transform: capitalize;
+  margin-bottom: 40px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.ul-3>span {
+  position: absolute;
+  bottom: 20%;
+  font-size: 2.1rem;
+  gap: 30px;
+}
+
+.lower-f .copyright {
+  height: 15%;
+}
+
+.copyright h4 {
+  font-size: 1.4rem;
+  color: white;
+}
+
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhh section 8 footer ended hear hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
