@@ -897,8 +897,9 @@ input:nth-child(2) {
   width: 60%;
   height: 100%;
   justify-content: start;
-  gap: 45px;
+  gap: 50px;
   padding-left: 100px;
+
 }
 
 .ul>div {
@@ -907,11 +908,13 @@ input:nth-child(2) {
   flex-direction: column;
   align-items: start;
   justify-content: start;
-  gap: 55px;
+  gap: 6vh;
   color: white;
   font-family: sans-serif;
-  padding-top: 70px;
+  padding-top: 50px;
   position: relative;
+
+
 }
 
 .ul>div>h3 {
@@ -921,16 +924,14 @@ input:nth-child(2) {
 
 .ul>div>ul>li {
   text-transform: capitalize;
-  margin-bottom: 40px;
+  margin-bottom: 5vh;
   font-size: 1.2rem;
   font-weight: 400;
 }
 
-.ul-3>span {
-  position: absolute;
-  bottom: 20%;
-  font-size: 2.1rem;
-  gap: 30px;
+.ul-3>ul>span {
+  font-size: 1.8rem;
+  gap: 35px;
 }
 
 .lower-f .copyright {
@@ -938,7 +939,7 @@ input:nth-child(2) {
 }
 
 .copyright h4 {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   color: white;
 }
 
